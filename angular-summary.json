@@ -31,7 +31,23 @@
 		},
 		{
 			"sno": 8,
-			"name": "A module is a place where we can group components, directives, service and pipes. "
+			"name": "A module is a place where we can group components, directives, service and pipes. A root module imports BrowserModule, whereas a feature module imports CommonModule."
+		},
+		{
+			"sno": 9,
+			"name": "String interpolation uses the double curly braces {{}} syntax whereas property binding uses square brackets [] ."
+		},
+		{
+			"sno": 10,
+			"name": "Commonly used methods to share data between components: i) Parent to child using @Input decorator, ii) Child to parent using @ViewChild decorator iii) Child to parent using @Output and EventEmitter"
+		},
+		{
+			"sno": 11,
+			"name": "Inside the build section of angular.json file, the main property of the options object defines the entry point of the application which in this case is maint.ts ."			
+		}, 
+		{
+			"sno": 12,
+			"name": "The main.ts file creates a browser environment for the application to run: import { platformBrowserDynamic } from '@angular/platform-browser-dynamic'; platformBrowserDynamic().bootstrapModule(AppModule) ."
 		}
 	]
 }
