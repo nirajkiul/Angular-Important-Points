@@ -1,0 +1,37 @@
+{
+	"title": "Angular Important Points",
+	"result": [
+		{
+			"sno": 1,
+			"name": "ViewModel is an abstract layer of the application. It manages the data of a model and display in the view using data-binding(two way). Any change in the view, the viewmodel takes a note and changes the appropriate data inside the model."
+		},
+		{
+			"sno": 2,
+			"name": "Client-side frameworks allow one to develop advanced web applications like Single-Page-Application.Note that we can't develop SPAs using vanillaJS, but by doing so, the development process becomes slower."
+		},
+		{
+			"sno": 3,
+			"name": "Loading in JIT (ng build OR ng serve) is slower than AOT because it needs to compile your application at runtime. Bundle size is higher and suitable for Development mode."
+		},
+		{
+			"sno": 4,
+			"name": "Loading in AOT (ng build --aot OR ng serve --aot) is much quicker than the JIT because it already has compiled your code at build time. Bundle size is optimized and suitable for production mode."
+		},
+		{
+			"sno": 5,
+			"name": "Component life cycle hook: constructor -> ngOnChanges -> ngOnInit -> ngDoCheck -> ngAfterContentInit -> ngAfterContentChecked -> ngAfterViewInit -> ngAfterViewChecked -> ngOnDestroy. "
+		},
+		{
+			"sno": 6,
+			"name": "A directive is a class which is declared with a @Directive decorator. Types of Directive : Component, Structural (* sign), Attribute (ng g d directiveName)."
+		},
+		{
+			"sno": 7,
+			"name": "Dependency Injection is an application design pattern. In simple terms, dependencies are services in angular which have a functionality and can be injectable across all directives and components."
+		},
+		{
+			"sno": 8,
+			"name": "A module is a place where we can group components, directives, service and pipes. "
+		}
+	]
+}
